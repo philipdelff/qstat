@@ -1,0 +1,20 @@
+Package: qstat
+Type: Package
+Title: run qstat and other sge commands from within R
+Version: 0.0.901
+Authors@R: person("Philip", "Delff", email = "philip@delff.dk", role = c("aut", "cre"))
+Description: sge shortcuts in R
+License: GPL (>= 3)
+Encoding: UTF-8
+LazyData: true
+Imports:
+    data.table
+Depends:
+    R (>= 3.5.0)
+RoxygenNote: 7.3.3
+Suggests:
+    testthat (>= 3.0.0),
+    knitr,
+    rmarkdown
+Config/testthat/edition: 3
+VignetteBuilder: knitr
